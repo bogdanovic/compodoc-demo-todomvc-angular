@@ -1,6 +1,6 @@
 # compodoc-demo-todomvc-angular
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.24.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.0.
 
 It is a demo project for demonstrating Compodoc features :
 
@@ -19,6 +19,10 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+
+## Build compodoc documentation
+
+Run `npm run doc` to build the project documentation. When documentation are builded you can test it local just run `npm run serve.doc`
 
 ## Further help
 
